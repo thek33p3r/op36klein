@@ -1,4 +1,4 @@
-﻿Public Class login
+﻿Public Class frm_login
 
     ' TODO: Code zum Durchführen der benutzerdefinierten Authentifizierung mithilfe des angegebenen Benutzernamens und des Kennworts hinzufügen 
     ' (Siehe http://go.microsoft.com/fwlink/?LinkId=35339).  
@@ -16,7 +16,11 @@
         Me.Close()
     End Sub
 
-    Private Sub LogoPictureBox_Click(sender As Object, e As EventArgs) Handles LogoPictureBox.Click
+    Private Sub LogoPictureBox_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
